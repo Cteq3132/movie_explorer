@@ -99,7 +99,7 @@ class _MoviesViewState extends State<MoviesView> {
               return Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 15),
                 child: AnimatedAlign(
-                  duration: const Duration(milliseconds: 200),
+                  duration: const Duration(milliseconds: 300),
                   curve: Curves.easeInOut,
                   alignment: isTheSelectedMovie
                       ? Alignment.center
