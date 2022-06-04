@@ -7,6 +7,7 @@ environment:
   sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
+  animated_size_and_fade: ^3.0.0
   bloc: ^8.0.3
   equatable: ^2.0.3
   flutter:
@@ -14,6 +15,7 @@ dependencies:
   flutter_bloc: ^8.0.1
   flutter_localizations:
     sdk: flutter
+  google_fonts: ^3.0.1
   intl: ^0.17.0
 
 dev_dependencies:
@@ -33,3 +35,7 @@ flutter:
     - assets/dune_background.jpeg
     - assets/godzilla.jpeg
     - assets/godzilla_background.jpeg
+    - assets/avengers.jpeg
+    - assets/avengers_background.jpeg
+    - assets/tron.jpeg
+    - assets/tron_background.jpeg

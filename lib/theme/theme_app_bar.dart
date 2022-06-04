@@ -14,14 +14,22 @@ class ThemeAppBar extends StatelessWidget with PreferredSizeWidget {
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,
         icon: Row(
-          children: const [
-            Icon(
+          children: [
+            const SizedBox(width: 10),
+            const Icon(
               Icons.arrow_back_ios_new,
               color: iconColor,
               size: 16,
             ),
-            SizedBox(width: 4),
-            Text('Back', style: TextStyle(color: iconColor, fontSize: 16))
+            const SizedBox(width: 4),
+            Text(
+              'Back'.toUpperCase(),
+              style: const TextStyle(
+                color: iconColor,
+                fontWeight: FontWeight.bold,
+                fontSize: 12,
+              ),
+            )
           ],
         ),
         onPressed: () {
