@@ -14,21 +14,18 @@ class MovieSheet extends StatelessWidget {
     required this.title,
     required this.tags,
     required this.note,
-    required this.sheetWidth,
   });
 
   final String imageName;
   final String title;
   final List<String> tags;
   final int note;
-  final double sheetWidth;
 
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
       borderRadius: BorderRadius.circular(kMovieClipRadius),
-      child: Container(
-        width: sheetWidth,
+      child: DecoratedBox(
         decoration: BoxDecoration(
           color: Colors.white,
           boxShadow: [
