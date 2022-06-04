@@ -11,6 +11,8 @@ class ThemeAppBar extends StatelessWidget with PreferredSizeWidget {
       elevation: 0,
       leadingWidth: 80,
       leading: IconButton(
+        splashColor: Colors.transparent,
+        highlightColor: Colors.transparent,
         icon: Row(
           children: const [
             Icon(
@@ -28,6 +30,8 @@ class ThemeAppBar extends StatelessWidget with PreferredSizeWidget {
       ),
       actions: <Widget>[
         IconButton(
+          splashColor: Colors.transparent,
+          highlightColor: Colors.transparent,
           icon: const Icon(
             Icons.more_vert,
             color: iconColor,
@@ -35,6 +39,8 @@ class ThemeAppBar extends StatelessWidget with PreferredSizeWidget {
           onPressed: () {},
         ),
         IconButton(
+          splashColor: Colors.transparent,
+          highlightColor: Colors.transparent,
           icon: const Icon(
             Icons.favorite_border,
             color: iconColor,
